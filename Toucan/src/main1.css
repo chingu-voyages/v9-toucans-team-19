@@ -1,0 +1,153 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:#f2eded;
+}
+
+.background{
+    position: fixed;
+    min-height: 70vh;
+    width:100%;
+    background-size: 100% 100%s;
+    
+   }
+
+
+
+nav{
+    position:fixed;
+    z-index:0;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    min-height:15vh;
+    justify-content: space-around;
+   
+}
+/* nav:first-child{
+    align-items: flex-start;
+} */
+
+.logo{
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+  
+   
+}
+
+
+
+.nav-bar-list{
+    display: flex;
+    justify-content: space-around;
+    width:45%;
+
+}
+
+
+.nav-bar-list a {
+    
+    color:#ccc;
+    text-decoration: none;
+    letter-spacing: none;
+    font-weight:400;
+    font-size: 19px;
+
+}
+li.nav-link  {
+    list-style-type: none;
+    /* text-align: center; */
+}
+
+a.login {
+    
+    text-decoration: none;
+    color:#fff;
+    /* font-size:12px; */
+}
+
+
+
+.burger div {
+    
+    width:25px;
+    height: 3px;
+    background-color:#ccc;
+    margin:6px;
+   
+}
+.burger{
+    display: none;
+}
+
+/* .getStarted{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    border-radius:10%;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    /* cursor: pointer;
+} */ 
+
+
+
+.getStarted {
+    background-color: #5bc399;
+    border-color:none;
+    font-size:1rem;
+    border:1px solid transparent;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    color:#fff;
+    padding:15px;
+    border-radius: 5px;
+
+}
+
+.getStarted:hover{
+    background-color:#4eab86;
+}
+
+
+
+        
+
+
+
+
+@media screen and (max-width:1024px){
+    .nav-link{
+        
+    }
+}
+
+
+
+
+@media screen and (max-width:768px){
+
+
+.login {
+    
+    display: none;
+}
+.nav-link{
+     display:none;
+ }
+
+ .burger{
+     display:block;
+ }
+
+} 
