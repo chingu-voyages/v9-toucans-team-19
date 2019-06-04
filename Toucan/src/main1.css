@@ -6,20 +6,20 @@
 }
 body{
     background:#f2eded;
+    
 }
 
-.background{
-    position: fixed;
-    min-height: 70vh;
+img.background{
+    position: absolute;
+    height:70vh;
+    object-fit: cover;
     width:100%;
-    background-size: 100% 100%s;
-    
    }
 
 
 
 nav{
-    position:fixed;
+    position: absolute;
     z-index:0;
     width:100%;
     display: flex;
@@ -47,7 +47,7 @@ nav{
 .nav-bar-list{
     display: flex;
     justify-content: space-around;
-    width:45%;
+    width:35%;
 
 }
 
@@ -59,6 +59,7 @@ nav{
     letter-spacing: none;
     font-weight:400;
     font-size: 19px;
+    margin-left:50px;
 
 }
 li.nav-link  {
@@ -87,19 +88,6 @@ a.login {
     display: none;
 }
 
-/* .getStarted{
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    border-radius:10%;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    /* margin: 4px 2px; */
-    /* cursor: pointer;
-} */ 
 
 
 
@@ -118,12 +106,39 @@ a.login {
 .getStarted:hover{
     background-color:#4eab86;
 }
+.chrome{
 
+}
+img.chromeTab{
+    position: relative;
+    /* min-height:51vh; */
+    max-height:45vh;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    /* display: none; */
+}
 
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:60vh;
+}
+    
 
-        
-
-
+.mainTitle{
+    position: relative;
+    z-index:0;
+    color:#fff;
+    font-family:"Tofino", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica", sans-serif;
+    line-height: 1.15;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow:   0 2px 4px rgba(0,0,0,.5);
+    
+}
 
 
 @media screen and (max-width:1024px){
