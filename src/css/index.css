@@ -107,8 +107,9 @@ img.chromeTab{
   display: block;
   position: absolute;
   top: 65%;
-  z-index: 1;
+  /* z-index: 2; */
   max-height: 41vh;
+  min-height: 40vh;
   height: 100%;
   
    transform: translate(-50%, -50%);
@@ -155,7 +156,7 @@ img.chromeTab{
 }
 .pipelines{
   position: relative;
-  /* display:block; */
+  display:block;
   margin-top:35rem;
  display: flex;
  justify-content: center;
@@ -174,9 +175,41 @@ img.chromeTab{
   text-align: center;
   /* margin-bottom:20px; */
 }
-@media screen and (max-width:1024px){
+.startButtonFree{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.getStartedFree{
+  /* display: inline-block; */
+  /* margin-right:-6rem; */
+  background-color: #5bc399;
+  border-color:none;
+  font-size: 16px;
+
+  border:1px solid transparent;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  color:#fff;
+  padding: 15px 20px 15px 20px;
+  border-radius: 5px;
+}
+/* @media screen and (max-width:1024px){
   .nav-link{
   }
+} */
+@media screen and (max-width:890px){
+img.chromeTab{
+  top:85%;
+}
+.pipelines{
+  margin-top:46rem;
+}
+.move-beyond{
+  font-size:14px;
+}
+.pipe-line-p{
+  font-size: 13px;
+}
 }
 @media screen and (max-width:890px){
   .login {
