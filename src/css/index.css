@@ -104,15 +104,17 @@ a.log {
 }
 
 img.chromeTab{
-  display: block;
+  /* display: block; */
   position: absolute;
-  top: 65%;
+  left:50%;
   /* z-index: 2; */
-  max-height: 41vh;
-  min-height: 40vh;
-  height: 100%;
-  
-   transform: translate(-50%, -50%);
+  /* top:70vh; */
+  margin-top:-200px;
+  max-height: 43vh;
+  min-height: 43vh;
+  /* margin-bottom:100px; */
+  /* height: 100%; */
+   transform: translate(-50%, -50%); 
   /* display: none; */
 }
 
@@ -163,12 +165,14 @@ img.chromeTab{
  align-items:center;
  flex-direction: column;
  z-index: auto;
- margin-bottom:200px;
+ /* margin-bottom: 200px; */
+
 }
 
 .move-beyond{
   font-weight: bold;
  font-size: 16px;
+ margin-top:30px;
 }
 .pipe-line-p{
   font-size: 15px;
@@ -179,19 +183,20 @@ img.chromeTab{
   display:flex;
   justify-content: center;
   align-items: center;
+  
 }
 .getStartedFree{
-  /* display: inline-block; */
-  /* margin-right:-6rem; */
   background-color: #5bc399;
   border-color:none;
   font-size: 16px;
-
+ 
   border:1px solid transparent;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
   color:#fff;
   padding: 15px 20px 15px 20px;
   border-radius: 5px;
+  margin-top:20px;
+  margin-bottom:200px;
 }
 /* @media screen and (max-width:1024px){
   .nav-link{
@@ -199,10 +204,10 @@ img.chromeTab{
 } */
 @media screen and (max-width:890px){
 img.chromeTab{
-  top:85%;
+  
 }
 .pipelines{
-  margin-top:46rem;
+  margin-top:75vh;
 }
 .move-beyond{
   font-size:14px;
