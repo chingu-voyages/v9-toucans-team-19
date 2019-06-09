@@ -1,11 +1,17 @@
 *{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  margin:0;
-  padding: 0;
   box-sizing: border-box;
 }
 body{
-  background:#f2eded;
+  background-color: white;
+  font-size: 1rem;
+  line-height: 1.625rem;
+  font-weight: 400;
+  font-family: "Tofino", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica", sans-serif;
+  color: #2a2a2a;
+  margin: 0;
+  padding: 0;
+}
+img{
 }
 img.background{
   position: absolute;
@@ -118,4 +124,33 @@ img.chromeTab{
   .burger{
   display:block;
  }
+}
+main{
+  display: block;
+}
+section{
+  display: block;
+}
+#platform{
+  background-color: #F7F7F7;
+
+}
+#platform-header{
+  display: block;
+  width: 100%;
+  margin-left: 0;
+}
+.platform-box{
+  background-color: #F7F7F7;
+  padding: 60px 7% 80px 7%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.platform-img{
+  width: 160px;
+  text-align: center;
+  vertical-align: middle;
+  border-style: none;
 }
