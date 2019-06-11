@@ -299,6 +299,37 @@ img.chromeTab{
 }
 /* <<<<<<< HEAD */
 
+
+main{
+  display: block;
+}
+section{
+  display: block;
+}
+#platform{
+  background-color: white;
+  padding: 60px 7% 80px;
+  text-align: center;
+}
+#platform-header{
+  display: block;
+  width: 100%;
+  margin-left: 0;
+}
+.platform-box{
+  background-color: #F7F7F7;
+  padding: 60px 7% 80px 7%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.platform-img{
+  width: 160px;
+  text-align: center;
+  vertical-align: middle;
+  border-style: none;
+
+}
+
 /* THE Software delivery machine SECTION */
 
 .softwareDelivery{
@@ -331,33 +362,4 @@ img.chromeTab{
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-}
-main{
-  display: block;
-}
-section{
-  display: block;
-}
-#platform{
-  background-color: white;
-  padding: 60px 7% 80px;
-  text-align: center;
-}
-#platform-header{
-  display: block;
-  width: 100%;
-  margin-left: 0;
-}
-.platform-box{
-  background-color: #F7F7F7;
-  padding: 60px 7% 80px 7%;
-  margin-bottom: 30px;
-  text-align: center;
-}
-.platform-img{
-  width: 160px;
-  text-align: center;
-  vertical-align: middle;
-  border-style: none;
-
 }
