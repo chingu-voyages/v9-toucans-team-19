@@ -353,7 +353,13 @@ section{
 
 .mainSection1{
   display: inline-block;
-  /* width:50%; */
+  width:70%;
+  /* float:left; */
+}
+.mainSection2{
+  /* display:inline-block; */
+  float:left;
+  width:70%;
 }
 
 .circle1{
@@ -362,4 +368,23 @@ section{
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
+}
+.circle2{
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  
+}
+.softwareImg{
+  height:300px;
+  width:100%;
+  margin-left:-250px;
+}
+.SDM{
+  /* margin-left:-950px; */
+  height:500px;
+  width:500px;
+ 
 }
