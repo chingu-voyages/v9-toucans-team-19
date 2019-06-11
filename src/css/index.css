@@ -129,6 +129,7 @@ section{
 #platform{
   background-color: white;
   padding: 60px 7% 80px;
+  text-align: center;
 }
 #platform-header{
   display: block;
