@@ -1,5 +1,5 @@
 *{
-   
+
   margin:0;
   padding: 0;
   box-sizing: border-box;
@@ -27,7 +27,7 @@ img.background{
   width:100%;
   z-index: 0;
 
-  
+
 }
 nav{
   position: relative;
@@ -45,15 +45,15 @@ img.logos{
   height: 60px;
   width: 200px;
   margin-left:-100px;
-  
- 
+
+
 }
 .nav-bar-list{
   display: flex;
   padding:20px;
   font-size: 200px;
   /* padding:-20px; */
- 
+
 }
 .nav-bar-list a {
   color:#fff;
@@ -63,21 +63,21 @@ img.logos{
   font-size: 18px;
   padding-top:12px;
   padding-right: 43px;
-  
+
 }
 li.nav-link  {
   list-style-type: none;
-  
+
 }
 a.log {
- 
+
   text-decoration: none;
   color:#fff;
-  
- 
+
+
 }
 .login{
-  
+
   text-decoration: none;
   color:#fff;
   display:block;
@@ -99,7 +99,7 @@ a.log {
   margin-top:-85px;
   position: relative;
   z-index: 1;
- 
+
   margin-right:35px;
   background-color: #5bc399;
   border-color:none;
@@ -122,10 +122,10 @@ a.log {
  /* position: absolute; */
   display:flex;
   justify-content: center;
-  align-items: center; 
+  align-items: center;
   margin-top:7rem;
 /* border: 4px solid black;  */
-  
+
 }
 
 img.chromeTab{
@@ -136,7 +136,7 @@ img.chromeTab{
   /* margin: 0 auto; */
   position: relative;
   min-height: 400px;
- 
+
   /* left:50%; */
   z-index: 1;
   /* top:70vh; */
@@ -161,12 +161,12 @@ img.chromeTab{
  /* position: absolute; */
 }
 .mainTitle{
- 
+
   top:5vh;
   position: relative;
   z-index:0;
   letter-spacing: 0.06rem;
-  
+
   color:#fff;
   font-family:"Tofino", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Helvetica", sans-serif;
   line-height: 1.15;
@@ -200,20 +200,20 @@ img.chromeTab{
   align-items: center;
   flex-direction: column;
   /* position: absolute; */
-  
+
 }
 .button-getStarted{
   display:flex;
   justify-content: center;
   align-items: center;
-  
+
 }
 
 .getStartedFree{
   background-color: #5bc399;
   border-color:none;
   font-size: 16px;
-  
+
   border:1px solid transparent;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
   color:#fff;
@@ -261,8 +261,8 @@ img.chromeTab{
   #chrome{
   /* margin-top:-2vh; */
   height:200px;
- 
-} 
+
+}
  img.logos{
     height:40px;
     width:140px;
@@ -271,7 +271,7 @@ img.chromeTab{
 }
  @media screen and (max-width:768px) {
    img.logo{
-     
+
    }
    #chrome
  }
@@ -293,4 +293,32 @@ img.chromeTab{
   .burger{
   display:block;
  }
+}
+main{
+  display: block;
+}
+section{
+  display: block;
+}
+#platform{
+  background-color: white;
+  padding: 60px 7% 80px;
+  text-align: center;
+}
+#platform-header{
+  display: block;
+  width: 100%;
+  margin-left: 0;
+}
+.platform-box{
+  background-color: #F7F7F7;
+  padding: 60px 7% 80px 7%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.platform-img{
+  width: 160px;
+  text-align: center;
+  vertical-align: middle;
+  border-style: none;
 }
