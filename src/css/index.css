@@ -15,7 +15,7 @@ html, body {
 }
 a{
   text-decoration: none;
-  color:#ccc
+  color:#fff
 }
 
 
@@ -222,6 +222,9 @@ img.chromeTab{
   margin-top:20px;
   margin-bottom:200px;
 }
+.getStartedFree:hover{
+  background-color:#4eab86;
+}
 
 .move{
   margin-top:10px;
@@ -269,12 +272,12 @@ img.chromeTab{
     margin-left:2px;
 }
 }
- @media screen and (max-width:768px) {
+ /* @media screen and (max-width:768px) {
    img.logo{
      
    }
    #chrome
- }
+ } */
 
 @media screen and (max-width:1024px){
   .login {
@@ -293,4 +296,38 @@ img.chromeTab{
   .burger{
   display:block;
  }
+}
+
+/* THE Software delivery machine SECTION */
+
+.softwareDelivery{
+  margin-top:200px;
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: column;
+  width:100%;
+
+}
+.back-board{
+  width:1000px;
+  height:800px;
+  background-color: #f7f7f7;
+}
+.software-title{
+  text-align: center;
+
+}
+
+.mainSection1{
+  display: inline-block;
+  /* width:50%; */
+}
+
+.circle1{
+  height: 25px;
+  width: 25px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
 }
