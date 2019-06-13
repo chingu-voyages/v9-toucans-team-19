@@ -339,63 +339,99 @@ section{
   align-items: center;
   flex-direction: column;
   width:100%;
+  font-family: "Tofino", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Helvetica", sans-serif;
 
 }
 .outer-board{
-  display:block;
-   justify-content:center;
-  align-items: center;
-  flex-direction: column;
+  background-color:rgb(193, 193, 198);
    position: relative;  
   margin:0,auto;
-  width:100%;
+  width:80%;
+  /* margin-bottom:500px; */
 }
 
 .back-board{
-
   position: relative;
-  left:10%;
-  width:77vw;
-  /* min-width:300px; */
+  width:52vw;
   height:800px;
   background-color: #f7f7f7;
+  left: 50%;
+  transform: translateX(-50%);
+  /* margin-bottom:520px; */
 }
+
+
 .software-title{
   text-align: center;
 
 }
 
+/* TODO:part1 */
 .mainSection1{
+  position: relative;
   display: inline-block;
-  width:70%;
-  /* float:left; */
+  font-family: "Tofino", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Helvetica", sans-serif;
+  margin:50px 30px 10px 50px;
+  /* margin:50px; */
+  
 }
-.mainSection2{
-  /* display:inline-block; */
-  float:left;
-  width:70%;
+.main-title1{
+  padding-left:30px;
+  font-size: 18px;
 }
 
-.circle1{
-  height: 25px;
-  width: 25px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
+.main-p1{
+  margin-left:30px;
+  font-size: 13px;
+  line-height: 1.5rem;
+  color:#717274;
+  
 }
-.circle2{
-  height: 25px;
-  width: 25px;
-  background-color: #bbb;
+.circle1{
+  height: 15px;
+  width: 15px;
+  background-color: #007bbd;
   border-radius: 50%;
-  display: inline-block;
+  position: absolute;
+
+}
+
+
+/* TODO: part 2 */
+.mainSection2{
+  
+  position: relative;
+  margin-left:300px;
+  font-size: 13px;
+  margin-right:40px;
+  word-wrap: break-word;
+  
+}
+.main-title2{
+  padding-left:30px;
+  font-size:18px;
+}
+.main-p2{
+  margin-left:30px;
+  color:#717274;
+  line-height: 1.5rem;
+}
+
+
+.circle2{
+  height: 15px;
+  width: 15px;
+  background-color: #5bbcc3;
+  border-radius: 50%;
+  position: absolute;
   
 }
 
+/* FIXME: Image */
 .softwareImg{
   height:0%;
   width:30%;
-  margin-left:-250px;
+  margin-left:-201px;
 }
 .SDM{
   /* margin-left:-950px; */
