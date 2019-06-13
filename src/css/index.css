@@ -330,7 +330,7 @@ section{
 
 }
 
-/* THE Software delivery machine SECTION */
+/* FIXME: THE Software delivery machine SECTION */
 
 .softwareDelivery{
   margin-top:200px;
@@ -342,8 +342,34 @@ section{
   font-family: "Tofino", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Helvetica", sans-serif;
 
 }
+.software-title{
+ 
+  width:100%;
+}
+.software-main{
+  font-size: 32px;
+  color:#2a2a2a;
+  font-weight: 600;
+  line-height: 37.5px;
+  font-family: "Tofino", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Helvetica", sans-serif;
+}
+.software-main2{
+ font-size:18px;
+ line-height: 30px;
+ color:#717274;
+ padding-bottom:15px;
+}
+.software-p{
+  color:#717274;
+  font-size:18px;
+  margin-bottom:30px;
+  letter-spacing: .012rem;
+  
+}
+
+
 .outer-board{
-  background-color:rgb(193, 193, 198);
+  /* background-color:rgb(193, 193, 198); */
   margin:0,auto;
   width:80%;
   margin-bottom:500px;
@@ -355,6 +381,7 @@ section{
   height:820px;
   background-color: #f7f7f7;
   left: 50%;
+  /* margin-top:-10px; */
   transform: translateX(-50%);
   /* margin-bottom:820px; */
 }
