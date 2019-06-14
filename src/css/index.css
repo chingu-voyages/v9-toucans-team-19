@@ -312,7 +312,14 @@ section{
   font-family: "Tofino", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica", sans-serif;
   box-sizing: border-box;
 }
-
+.platform-row::before {
+    display: table;
+    content: " ";
+}
+.platform-row::after {
+    display: table;
+    content: " ";
+}
 .platform-container{
   background-color: #F7F7F7;
   margin-bottom: 30px;
@@ -345,6 +352,27 @@ section{
 .platform-info{
   margin-top: 0;
   margin-bottom: 30px;
+}
+.platform-button{
+  border-color: transparent;
+  background-color: #5bc399;
+  font-size: 1rem;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Tofino", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica", sans-serif;
+    font-weight: 500;
+    margin-bottom: 0;
+    outline: none;
+    padding: 20px 30px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: normal;
+    -webkit-appearance: none;
+    line-height: 1.15;
 }
 @media (min-width: 550px){
   .platform-title{
