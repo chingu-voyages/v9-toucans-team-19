@@ -1,10 +1,3 @@
-*{
-
-  margin:0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 html, body {
   height: 100%;
   margin: 0;
@@ -318,15 +311,16 @@ section{
   font-weight: 650;
   font-family: "Tofino", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica", sans-serif;
   box-sizing: border-box;
-
 }
-.platform-box{
+
+.platform-container{
   background-color: #F7F7F7;
   margin-bottom: 30px;
   text-align: center;
   display: flex;
   flex-direction: column;
 }
+
 .platform-img{
   width: 160px;
   text-align: center;
@@ -337,6 +331,7 @@ section{
 .platform-text{
   line-height: 1.875rem;
   padding: 0 40px 20px 40px;
+  display: block;
 }
 .platform-title{
   font-size: 1.75rem;
@@ -348,8 +343,34 @@ section{
   font-size: 20px;
 }
 .platform-info{
-  display: block;
+  margin-top: 0;
   margin-bottom: 30px;
+}
+@media (min-width: 550px){
+  .platform-title{
+    font-size:  1.3125rem;
+  }
+}
+@media (min-width: 770px) {
+  .platform-row {
+    margin-right: -15px;
+    margin-left: -15px;
+    margin-bottom: 20px;
+  }
+  #platform-header, .platform-box{
+    display: inline-block;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+  }
+  #platform-header{
+    width: 100%;
+  }
+  .platform-box{
+    width: 50%;
+  }
 }
 
 /* FIXME: THE Software delivery machine SECTION */
