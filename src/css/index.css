@@ -312,22 +312,44 @@ section{
   text-align: center;
 }
 #platform-header{
-  display: block;
-  width: 100%;
-  margin-left: 0;
+  font-size: 1.75rem;
+  margin-bottom: 40px;
+  line-height: 1.25;
+  font-weight: 650;
+  font-family: "Tofino", -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica", sans-serif;
+  box-sizing: border-box;
+
 }
 .platform-box{
   background-color: #F7F7F7;
-  padding: 60px 7% 80px 7%;
   margin-bottom: 30px;
   text-align: center;
+  display: flex;
+  flex-direction: column;
 }
 .platform-img{
   width: 160px;
   text-align: center;
   vertical-align: middle;
   border-style: none;
-
+  align-self: center;
+}
+.platform-text{
+  line-height: 1.875rem;
+  padding: 0 40px 20px 40px;
+}
+.platform-title{
+  font-size: 1.75rem;
+  margin-bottom:0 0 .5rem 0;
+  font-weight: 500;
+  line-height: 1.2;
+  display: block;
+  padding: 0;
+  font-size: 20px;
+}
+.platform-info{
+  display: block;
+  margin-bottom: 30px;
 }
 
 /* FIXME: THE Software delivery machine SECTION */
@@ -343,7 +365,7 @@ section{
 
 }
 .software-title{
- 
+
   width:100%;
 }
 .software-main{
@@ -365,7 +387,7 @@ section{
   font-size:18px;
   margin-bottom:30px;
   letter-spacing: .012rem;
-  
+
 }
 
 
@@ -395,7 +417,7 @@ section{
   }
 
 }
-/* 
+/*
 @media screen and(max-width:1000px){
 
 } */
@@ -413,7 +435,7 @@ section{
   font-family: "Tofino", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Helvetica", sans-serif;
   margin:50px 30px 10px 50px;
   /* margin:50px; */
-  
+
 }
 .main-title1{
   padding-left:30px;
@@ -425,7 +447,7 @@ section{
   font-size: 13px;
   line-height: 1.5rem;
   color:#717274;
-  
+
 }
 .circle1{
   height: 15px;
@@ -464,7 +486,7 @@ section{
   border-radius: 50%;
   position: absolute;
   top:3px;
-  
+
 }
 
 /* TODO:Section3 */
@@ -507,12 +529,12 @@ margin-top:3px;
   margin-right:30px;
   /* margin-top:60px; */
  }
- 
+
  .main-title4{
    font-size:18px;
    padding-left:30px;
  }
- 
+
  .main-p4{
    font-size:13px;
    line-height: 1.5rem;
@@ -536,7 +558,7 @@ margin-top:3px;
   font-family: "Tofino", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Helvetica", sans-serif;
   margin:50px 20px 10px 50px;
   /* margin:50px; */
-  
+
 }
 .main-title5{
   padding-left:30px;
@@ -548,7 +570,7 @@ margin-top:3px;
   font-size: 13px;
   line-height: 1.5rem;
   color:#717274;
-  
+
 }
 .circle5{
   height: 15px;
@@ -567,14 +589,14 @@ margin-top:3px;
   height:0%;
   width:30%;
   margin-left:-201px;
-  
+
 }
 .SDM{
   /* margin-left:-950px; */
   height:500px;
   width:500px;
-  
- 
+
+
 }
  @media screen and (max-width:1200px){
    .SDM{
@@ -584,17 +606,15 @@ margin-top:3px;
    .softwareImg{
      margin-left:-100px;
      margin-top:30px;
-  
+
    }
    .mainSection2,.mainSection2.mainSection3.mainSection4{
      margin-top:10px;
 
-     
+
    }
    .mainSection5{
      margin-top:-10px;
-     
+
    }
  }
-
-
