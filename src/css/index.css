@@ -358,6 +358,7 @@ section{
  line-height: 30px;
  color:#717274;
  padding-bottom:15px;
+ letter-spacing: .012rem;
 }
 .software-p{
   color:#717274;
@@ -385,6 +386,19 @@ section{
   transform: translateX(-50%);
   /* margin-bottom:820px; */
 }
+
+@media screen and (max-width:1600px) {
+
+  .back-board{
+    width:80vw;
+    /* background-color:blue; */
+  }
+
+}
+/* 
+@media screen and(max-width:1000px){
+
+} */
 
 
 .software-title{
@@ -562,6 +576,25 @@ margin-top:3px;
   
  
 }
+ @media screen and (max-width:1200px){
+   .SDM{
+     height:400px;
+     width:400px;
+   }
+   .softwareImg{
+     margin-left:-100px;
+     margin-top:30px;
+  
+   }
+   .mainSection2,.mainSection2.mainSection3.mainSection4{
+     margin-top:10px;
 
+     
+   }
+   .mainSection5{
+     margin-top:-10px;
+     
+   }
+ }
 
 
