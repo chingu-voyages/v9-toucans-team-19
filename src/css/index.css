@@ -374,6 +374,9 @@ section{
     -webkit-appearance: none;
     line-height: 1.15;
 }
+.platform-button-container{
+  width: 100%;
+}
 @media (min-width: 550px){
   .platform-title{
     font-size:  1.3125rem;
