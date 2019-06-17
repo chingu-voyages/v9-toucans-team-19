@@ -422,8 +422,9 @@ section{
   color:#2a2a2a;
   font-weight: 600;
   line-height: 37.5px;
-  font-family: "Tofino", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Helvetica", sans-serif;
-}
+  font-family:"Tofino", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Helvetica", sans-serif;
+ }
+
 .software-main2{
  font-size:18px;
  line-height: 30px;
@@ -437,6 +438,22 @@ section{
   margin-bottom:30px;
   letter-spacing: .012rem;
 
+}
+@media screen and (max-width:1000px){
+ .software-main2{
+   font-size:16px;
+   line-height: 24px;
+ }
+ .software-p{
+   font-size: 16px;
+   margin-bottom: 50px;
+   line-height: 24px;
+ }
+ .software-main{
+   font-size: 24px;
+   line-height: 30px;
+   font-weight: 700;
+ }
 }
 
 
@@ -644,9 +661,31 @@ margin-top:3px;
   /* margin-left:-950px; */
   height:500px;
   width:500px;
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 8f2ffe146e1035e8662eafc3e764b4953a558c58
 }
+.softwareImgTop{
+ display:flex;
+ justify-content: center;
+ margin-bottom:30px;
+}
+.SDMtop{
+  /* display: flex; */
+  height:500px;
+  width:498px;
+  display:none;
+}
+/* display SDM img on top of board */
+@media screen and (max-width:1000px){
+  .SDMtop{
+    display: block;
+  }
+}
+/* media query for SDM img section */
+
  @media screen and (max-width:1200px){
    .SDM{
      height:400px;
@@ -667,3 +706,50 @@ margin-top:3px;
 
    }
  }
+ 
+ 
+ @media screen and (max-width:1000px){
+   .SDM{
+     display:none;
+   }
+ }
+
+ @media screen and (max-width:1000px){
+  .back-board{
+    height:100%;
+    min-width:90vw;
+  }
+   .mainSection1{
+     margin-top:35px;
+     margin-left:35px;
+     margin-bottom: 30px;
+   }
+   .mainSection2{
+     margin-left:35px;
+     margin-bottom: 10px;
+   }
+   .mainSection3{
+     margin-left:35px;
+     margin-bottom:30px;
+     margin-top:30px;
+   }
+   .mainSection4{
+     margin-left:35px;
+     margin-bottom:40px;
+   }
+  .mainSection5{
+    margin-left:35px;
+    margin-bottom:25px;
+  }
+ }
+ @media screen and (max-width:768px){
+   .back-board{
+     height:100%;
+     min-width:90vw;
+   }
+   .SDMtop{
+     height: 450px;
+     width:448px;
+   }
+
+  }
