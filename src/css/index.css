@@ -663,12 +663,8 @@ margin-top:3px;
   /* margin-left:-950px; */
   height:500px;
   width:500px;
-<<<<<<< HEAD
-=======
-
-
->>>>>>> 8f2ffe146e1035e8662eafc3e764b4953a558c58
 }
+
 .softwareImgTop{
  display:flex;
  justify-content: center;
@@ -755,3 +751,65 @@ margin-top:3px;
    }
 
   }
+
+
+
+
+  /* FIXME: THE LATEST section */ 
+
+
+
+
+  .latestOutline{
+    margin-top:300px;
+     text-align: center;
+    
+  }
+  
+    .late{
+      display:inline-block;
+      width:60%;
+      
+    }
+  
+    .latestTitle{
+      text-align: left;
+      font-size: 20px;
+      color:#2a2a2a;
+      margin-left:1px;
+    }
+  
+  .puzzles{
+    display:grid;
+    grid-template-columns: 200px 800px;
+    grid-template-rows:  300px;
+    grid-gap: 10px;
+    justify-content: center;
+    
+  }
+  
+  .imgContainer1{
+   border: 10px solid black;
+  }
+  
+  
+    .docker{
+      /* margin-bottom: 200px; */
+      border: 5px solid white;
+      box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+      height:170px;
+      width: 170px;
+    }
+    .paraContainer1{
+      display:inline-block;
+    }
+  .puzzlesInfo{
+    display:block;
+    word-wrap: wrap break-word;
+    max-width:80vw;
+    background-color:green;
+  }
+   
+
+
+
