@@ -780,9 +780,10 @@ margin-top:3px;
     }
   
   .puzzles{
+    margin-top:20px;
     display:grid;
-    grid-template-columns: 200px 800px;
-    grid-template-rows:  300px;
+    grid-template-columns: 195px 800px;
+    grid-template-rows:  60px 100px 100px;
     grid-gap: 10px;
     justify-content: center;
     
@@ -808,6 +809,18 @@ margin-top:3px;
     word-wrap: wrap break-word;
     max-width:80vw;
     background-color:green;
+  }
+  .readArticleBtn{
+    border:2px solid #5bc399;
+    color:#5bc399;
+    padding:6px 15px;
+    font-size: 14px;
+    background-color:none;
+    border-radius: 5px;
+  }
+  .readArticleBtn:hover{
+    background-color:#5bc399;
+    color:#fff;
   }
    
 
