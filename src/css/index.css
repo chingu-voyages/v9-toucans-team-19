@@ -752,10 +752,65 @@ margin-top:3px;
 
   }
 
+/* Get Your Own Softward Delivery Machine */
+.GetYourBox {
+  background-color: #F7F7F7;
+  text-align: center;
+  padding: 40px 20px 50px 20px;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  display: block;
+  font-weight: 400;
+}
+.CloudHostedBox{
+  background-color: white;
+  box-shadow: 0px 10px 40px rgba(0,0,0, 0.25);
+  text-align: left;
+  margin-top: 20px;
+  padding: 30px;
+}
+.CloudHosted{
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  margin-bottom: 5px;
+}
+.GrayText{
+  color: #9E9EA7;
+    font-size: 0.9375rem;
+    line-height: 1.25rem;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.CloudList{
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  padding: 0;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  line-height: 1.5rem;
+}
+.GreenButtons{
+  padding: 10px 20px;
+  font-size: 14px;
+  height: auto;
+  font-weight: 400;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  color:White;
+  display: inline-block;
+  outline-none;
+  text-align: center;
+  vertical-align: middle;
+  white-space: normal;
+  background-color: #227F7E;
+}
 
-
-
-  /* FIXME: THE LATEST section */ 
+  /* FIXME: THE LATEST section */
 
 
 
@@ -763,22 +818,22 @@ margin-top:3px;
   .latestOutline{
     margin-top:300px;
      text-align: center;
-    
+
   }
-  
+
     .late{
       display:inline-block;
       width:60%;
-      
+
     }
-  
+
     .latestTitle{
       text-align: left;
       font-size: 20px;
       color:#2a2a2a;
       margin-left:1px;
     }
-  
+
   .puzzles{
     margin-top:20px;
     display:grid;
@@ -786,14 +841,14 @@ margin-top:3px;
     grid-template-rows:  60px 100px 100px;
     grid-gap: 10px;
     justify-content: center;
-    
+
   }
-  
+
   .imgContainer1{
    border: 10px solid black;
   }
-  
-  
+
+
     .docker{
       /* margin-bottom: 200px; */
       border: 5px solid white;
@@ -822,7 +877,3 @@ margin-top:3px;
     background-color:#5bc399;
     color:#fff;
   }
-   
-
-
-
