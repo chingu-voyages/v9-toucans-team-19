@@ -11,6 +11,7 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="src/css/index.css">
   <!-- Add additional CSS & JS files as necessary here -->
+  <script src="https://kit.fontawesome.com/27b8f321a9.js"></script>
 </head>
 
 <body>
@@ -65,80 +66,94 @@
   <main>
     <article>
       <section id="platform">
-        <div class="platform-row">
+        <div class="platform-all">
           <h2 id="platform-header">The Modern Delivery Platform</h2>
-          <div class="platform-box">
-            <div class="platform-container">
-              <img class="platform-img" src="src/assets/illo-automatic-delivery.png" alt="automatic delivery icon">
-              <div class="platform-text">
-                <h4 class="platform-title">Automated Delivery for All of Your Projects</h4>
-                <p class="platform-info">Evolve delivery flow in one place, not repository by repository. Get
-                  consistent, automated delivery across all projects with an event-driven Software Delivery Machine.</p>
+          <div class="PlatBoxes">
+            <div class="PlatRow1">
+              <div class="platform-box">
+                <div class="platform-imgbox">
+                  <img class="platform-img" src="src/assets/illo-automatic-delivery.png" alt="automatic delivery icon">
+                </div>
+                <div class="platform-text">
+                  <h4 class="platform-title">Automated Delivery for All of Your Projects</h4>
+                  <div class="platform-info">Evolve delivery flow in one place, not repository by repository. Get
+                    consistent, automated delivery across all projects with an event-driven Software Delivery Machine.
+                  </div>
+                </div>
+              </div>
+              <div class="platform-box">
+                <div class="platform-imgbox">
+                  <img class="platform-img" src="src/assets/illo-control-delivery.png" alt="control delivery icon">
+                </div>
+                <div class="platform-text">
+                  <h4 class="platform-title">Visualize and Control the Entire Delivery Flow</h4>
+                  <div class="platform-info">Know the delivery state of all your projects, all the time. See all activity
+                    across your delivery flow, from initial commit through to promotion and verification in production.
+                    Take direct action when needed in chat or by issuing commands.
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="platform-box">
-            <div class="platform-container">
-              <img class="platform-img" src="src/assets/illo-control-delivery.png" alt="control delivery icon">
-              <div class="platform-text">
-                <h4 class="platform-title">Visualize and Control the Entire Delivery Flow</h4>
-                <p class="platform-info">Know the delivery state of all your projects, all the time. See all activity
-                  across your delivery flow, from initial commit through to promotion and verification in production.
-                  Take direct action when needed in chat or by issuing commands.</p>
+            <div class="PlatRow2">
+              <div class="platform-box">
+                <div class="platform-imgbox">
+                  <img class="platform-img" src="src/assets/illo-create-projects.png" alt="create projects icon">
+                </div>
+                <div class="platform-text">
+                  <h4 class="platform-title">Self-Service</h4>
+                  <div class="platform-info">Make actions accessible with notifications and commands. Remove the friction of
+                    having to request resources, or the toil of setting up the delivery process yourself. Put the entire
+                    delivery process in front of you, so that you always have visibility and control.
+                  </div>
+                </div>
+              </div>
+              <div class="platform-box">
+                <div class="platform-imgbox">
+                  <img class="platform-img" src="src/assets/illo-kubernetes.png" alt="kubernetes icon">
+                </div>
+                <div class="platform-text">
+                  <h4 class="platform-title">Deployment Built-In</h4>
+                  <div class="platform-info">Deploy to your platform of choice in the cloud or self-hosted. Easy one-time
+                    setup to deploy to Kubernetes (whether you use Minikube, Google Kubernetes Engine, Azure Kubernetes
+                    Service, Amazon Elastic Kubernetes Service, RedHat OpenShift, Pivotal Container Service or open source
+                    Kubernetes), Cloud Foundry, ECS, Fargate and more.
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="platform-box">
-            <div class="platform-container">
-              <img class="platform-img" src="src/assets/illo-create-projects.png" alt="create projects icon">
-              <div class="platform-text">
-                <h4 class="platform-title">Self-Service</h4>
-                <p class="platform-info">Make actions accessible with notifications and commands. Remove the friction of
-                  having to request resources, or the toil of setting up the delivery process yourself. Put the entire
-                  delivery process in front of you, so that you always have visibility and control.</p>
+            <div class="PlatRow3">
+              <div class="platform-box">
+                <div class="platform-imgbox">
+                  <img class="platform-img" src="src/assets/illo-collaboration.png" alt="collaboration icon">
+                </div>
+                <div class="platform-text">
+                  <h4 class="platform-title">Collaboration-Oriented Delivery</h4>
+                  <div class="platform-info">Chat-native interface makes your delivery process part of the conversation in
+                    Slack or Microsoft Teams. See delivery progress in chat and take action immediately: Merge a pull
+                    request, assign an issue, or approve a deployment. Atomist bot commands make it easy to create
+                    projects or initiate a deployment.
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
-          <div class="platform-box">
-            <div class="platform-container">
-              <img class="platform-img" src="src/assets/illo-kubernetes.png" alt="kubernetes icon">
-              <div class="platform-text">
-                <h4 class="platform-title">Deployment Built-In</h4>
-                <p class="platform-info">Deploy to your platform of choice in the cloud or self-hosted. Easy one-time
-                  setup to deploy to Kubernetes (whether you use Minikube, Google Kubernetes Engine, Azure Kubernetes
-                  Service, Amazon Elastic Kubernetes Service, RedHat OpenShift, Pivotal Container Service or open source
-                  Kubernetes), Cloud Foundry, ECS, Fargate and more.</p>
-              </div>
-            </div>
-          </div>
-          <div class="platform-box">
-            <div class="platform-container">
-              <img class="platform-img" src="src/assets/illo-collaboration.png" alt="collaboration icon">
-              <div class="platform-text">
-                <h4 class="platform-title">Collaboration-Oriented Delivery</h4>
-                <p class="platform-info">Chat-native interface makes your delivery process part of the conversation in
-                  Slack or Microsoft Teams. See delivery progress in chat and take action immediately: Merge a pull
-                  request, assign an issue, or approve a deployment. Atomist bot commands make it easy to create
-                  projects or initiate a deployment.</p>
-              </div>
-            </div>
-          </div>
-          <div class="platform-box">
-            <div class="platform-container">
-              <img class="platform-img" src="src/assets/illo-fully-programmable.png" alt="fully programmable icon">
-              <div class="platform-text">
-                <h4 class="platform-title">Fully Programmable Delivery That Evolves with You</h4>
-                <p class="platform-info">Change your delivery by changing code. Whether you’re adding vulnerability
-                  scanning, pushing Docker images to a different artifact store, or adding your own bot commands your
-                  delivery process is completely programmable. We think <a id="YAML-link"
+              <div class="platform-box">
+                <div class="platform-imgbox">
+                  <img class="platform-img" src="src/assets/illo-fully-programmable.png" alt="fully programmable icon">
+                </div>
+                <div class="platform-text">
+                  <h4 class="platform-title">Fully Programmable Delivery That Evolves with You</h4>
+                  <div class="platform-info">Change your delivery by changing code. Whether you’re adding vulnerability
+                    scanning, pushing Docker images to a different artifact store, or adding your own bot commands your
+                    delivery process is completely programmable. We think <a id="YAML-link"
                     href="https://sdd-manifesto.org/?_ga=2.253867144.143117774.1559529405-501027903.1559529405">code
-                    speaks louder than YAML</a>.</p>
+                    speaks louder than YAML</a>.
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-        <div class="platform-button-container">
-          <button type="button" class="platform-button" name="platform-button">Get Started for Free</button>
+          <div class="platform-button-container">
+            <button type="button" class="platform-button" name="platform-button">Get Started for Free</button>
+          </div>
         </div>
       </section>
 
@@ -231,39 +246,41 @@
       <section class="GetYourOwn">
         <div class="GetYourBox">
           <h3 class="GetYourTitle">Get Your Own Software Delivery Machine</h3>
-          <div class="CloudHostedBox">
-            <h4 class="CloudHosted">Cloud Hosted SDM</h4>
-            <span class="GrayText">Atomist hosted SDM for delivering Node Apps to Kubernetes.</span>
-            <ul class="CloudList">
-              <li>Atomist cloud-hosted SDM</li>
-              <li>Works with GitHub.com</li>
-              <li>Delivery for Node apps to Kubernetes built-in</li>
-              <li>Create and deliver Node applications</li>
-              <li>Automatic autofix (lint), build, test, Docker build and depley to Docker registry</li>
-              <li>Test deploy to Atomist-hosted Kubernetes cluster</li>
-              <li>Deply to your own Kubernetes cluster</li>
-            </ul>
-            <span class="GrayText">Get started delivering Node applications right now.</span>
-            <a href="#">
-              <button type="button" class="GreenButtons" name="GetStarted">Get Started for Free</button>
-            </a>
-          </div>
-          <div class="CloudHostedBox">
-            <h4 class="CloudHosted">Self Hosted SDM</h4>
-            <span class="GrayText">Fully customizable delivery for multiple language stacks and deployment
-              environments.</span>
-            <ul class="CloudList">
-              <li>Run SDM anywhere (self-hosted)</li>
-              <li>Use and customize pre-built SDMs</li>
-              <li>Integrate with on-premises development and deployment tools</li>
-              <li>Use with GitHub, BitBucket or GitLab</li>
-              <li>Add functionality with Extension Packs</li>
-            </ul>
-            <span class="GrayText">Get started with your own SDM right now.</span>
-            <a href="#">
-              <button type="button" class="GreenButtons" name="Install">Install</button>
-            </a>
-          </div>
+            <div class="CloudBoxes">
+              <div class="CloudHostedBox">
+                <h4 class="CloudHosted">Cloud Hosted SDM</h4>
+                <span class="GrayText">Atomist hosted SDM for delivering Node Apps to Kubernetes.</span>
+                <ul class="CloudList">
+                  <li>Atomist cloud-hosted SDM</li>
+                  <li>Works with GitHub.com</li>
+                  <li>Delivery for Node apps to Kubernetes built-in</li>
+                  <li>Create and deliver Node applications</li>
+                  <li>Automatic autofix (lint), build, test, Docker build and depley to Docker registry</li>
+                  <li>Test deploy to Atomist-hosted Kubernetes cluster</li>
+                  <li>Deply to your own Kubernetes cluster</li>
+                </ul>
+                <span class="GrayText">Get started delivering Node applications right now.</span>
+                <a href="#">
+                  <button type="button" class="GreenButtons" name="GetStarted">Get Started for Free</button>
+                </a>
+              </div>
+              <div class="CloudHostedBox">
+                <h4 class="CloudHosted">Self Hosted SDM</h4>
+                <span class="GrayText">Fully customizable delivery for multiple language stacks and deployment
+                  environments.</span>
+                <ul class="CloudList">
+                  <li>Run SDM anywhere (self-hosted)</li>
+                  <li>Use and customize pre-built SDMs</li>
+                  <li>Integrate with on-premises development and deployment tools</li>
+                  <li>Use with GitHub, BitBucket or GitLab</li>
+                  <li>Add functionality with Extension Packs</li>
+                </ul>
+                <span class="GrayText">Get started with your own SDM right now.</span>
+                <a href="#">
+                  <button type="button" class="GreenButtons" name="Install">Install</button>
+                </a>
+              </div>
+            </div>
         </div>
       </section>
 
@@ -486,7 +503,7 @@
 </main>
 <footer>
   <div class="footer-logo">
-    <img src="assets/Atomist-Mark-Color.png" alt="Atomist Logo">
+    <img src="src/assets/Atomist-Mark-Color.png" alt="Atomist Logo">
   </div>
   <div class="footer-nav">
     <div class="footer-nav_column-left">
@@ -529,12 +546,13 @@
     <a href="#">Privacy</a>
   </div>
 </footer>
-
+<!--
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+-->
   <!-- ================================ -->
   <!-- Add more JavaScript files here!! -->
   <!-- ================================ -->
-  <script type="text/javascript" src="src/js/other.js"></script>
+<!--  <script type="text/javascript" src="src/js/other.js"></script>
   <script type="text/javascript" src="src/js/index.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
@@ -545,6 +563,6 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
-  <script src="https://kit.fontawesome.com/27b8f321a9.js"></script>
-</body>
+-->
+  </body>
 </html>
