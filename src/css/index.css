@@ -768,6 +768,8 @@ margin-top:3px;
   text-align: left;
   margin-top: 20px;
   padding: 30px;
+  display: flex;
+  justify-content: row;
 }
 .CloudHosted{
   font-size: 1.125rem;
@@ -988,4 +990,18 @@ margin-top:3px;
   text-align: center;
   vertical-align: middle;
   padding: 20px 30px;
+}
+footer{
+  background-color: #F7F7F7;
+  color: #858585;
+  padding: 50px 20px 100px 20px;
+  text-decoration: none;
+}
+.copyright{
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  margin-bottom: 30px;
+}
+.footer-nav{
+  text-decoration: none;
 }
