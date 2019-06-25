@@ -70,13 +70,17 @@ a.log {
 
 }
 .login{
-
+  /* position: absolute; */
   text-decoration: none;
   color:#fff;
   display:block;
   overflow: hidden;
   margin-right:10px;
  /* float:right; */
+}
+.action{
+  margin-right:30px;
+  /* position: absolute; */
 }
 .burger div {
   width:25px;
@@ -123,26 +127,15 @@ a.log {
 
 img.chromeTab{
   display: block;
-  height:400px;
-  width:800px;
+  height:409px;
+  width:770px;
   background:no-repeat 50% 0;
   /* margin: 0 auto; */
   position: relative;
   min-height: 400px;
 
-  /* left:50%; */
   z-index: 1;
-  /* top:70vh; */
-  /* object-fit:cover; */
-  /* margin-top:-200px; */
-  /* max-height: 43vh;
-  min-height: 43vh; */
-  /* min-width: 100%; */
-  /* width:40%; */
-  /* margin-bottom:100px; */
-  /* height: 100%; */
-   /* transform: translate(-50%, -50%);  */
-  /* display: none; */
+  
 }
 
 .title{
@@ -150,7 +143,7 @@ img.chromeTab{
   justify-content: center;
   align-items: center;
   flex-direction: column;
- margin-top:40px;
+  margin-top:40px;
  /* position: absolute; */
 }
 .mainTitle{
@@ -187,7 +180,7 @@ img.chromeTab{
 
 }
 
-.titles{
+.move-title{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -201,36 +194,40 @@ img.chromeTab{
   align-items: center;
 
 }
-
-.getStartedFree{
+.get-started{
   background-color: #5bc399;
   border-color:none;
   font-size: 16px;
-
   border:1px solid transparent;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
   color:#fff;
   padding: 18px 30px;
   border-radius: 5px;
   margin-top:20px;
-  margin-bottom:200px;
+  margin-bottom:100px;
 }
-.getStartedFree:hover{
+
+.get-started:hover{
   background-color:#4eab86;
 }
 
-.move{
+.move-title{
   margin-top:10px;
   font-size: 16px;
   font-weight: bold;
-  /* padding-top:20px; */
-  /* position: absolute; */
 }
 
-.get-event{
+.move-p{
   text-align: center;
   font-size: 16;
   font-weight: 400;
+  letter-spacing: 0.01rem;
+}
+.move-p2{
+  text-align: center;
+  font-size: 16;
+  font-weight: 400;
+  margin-top:-15px;
   letter-spacing: 0.01rem;
 }
 
@@ -432,7 +429,7 @@ img.chromeTab{
 /* FIXME: THE Software delivery machine SECTION */
 
 .softwareDelivery{
-  margin-top:200px;
+  margin-top:50px;
   display:flex;
   justify-content:center;
   align-items: center;
@@ -489,7 +486,7 @@ img.chromeTab{
   /* background-color:rgb(193, 193, 198); */
   margin:0,auto;
   width:80%;
-  margin-bottom:500px;
+  margin-bottom:100px;
 }
 
 .back-board{
@@ -841,7 +838,7 @@ margin-top:3px;
   border-radius: 5px;
   color:White;
   display: inline-block;
-  outline-none;
+  outline:none;
   text-align: center;
   vertical-align: middle;
   white-space: normal;
@@ -855,6 +852,7 @@ margin-top:3px;
 
 .puzzles{
   display:inline-block;
+  margin-bottom: 100px;
   /* width:60%; */
 
 }
@@ -863,7 +861,7 @@ margin-top:3px;
 }
 
   .latestOutline{
-    margin-top:300px;
+    margin-top:50px;
      text-align: center;
 
   }
