@@ -1,5 +1,8 @@
 // Example of DOM Manipulation with Pure JavaScript
 
+
+
+
 const changeSubtextBackground = () => {
   // document.querySelector() selects an HTML element from the page by its attribute
     // ids are selected with the '#' preceeding the ID name

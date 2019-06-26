@@ -73,14 +73,13 @@ a.log {
   /* position: absolute; */
   text-decoration: none;
   color:#fff;
-  display:block;
+  /* display:block; */
   overflow: hidden;
-  margin-right:10px;
+  /* margin-right:10px; */
  /* float:right; */
 }
 .action{
-  margin-right:30px;
-  /* position: absolute; */
+  
 }
 .burger div {
   width:25px;
@@ -254,8 +253,10 @@ img.chromeTab{
   #chrome{
   /* margin-top:-2vh; */
   height:200px;
+  /* width:50%; */
 
 }
+
  img.logos{
     height:40px;
     width:140px;
@@ -287,6 +288,85 @@ img.chromeTab{
   display:block;
  }
 }
+
+@media screen and (max-width:764px){
+  img.chromeTab{
+    width:100%;
+    
+  }
+   .move-p , .move-p2{
+    font-size:14px;
+  }
+}
+
+/* TODO: BURGER MENU VIEW */
+
+.burImg{
+  position: fixed;
+  z-index: 2;
+  height: 100%;
+}
+
+.menuBur{
+  text-align: left;
+  position: fixed;
+  color:white;
+  z-index:2;
+  text-decoration: none;
+  list-style-type: none;
+  margin-top:10px;
+  margin-left:-20px;
+}
+.menuBur li{
+ padding-top:40px;
+ font-size: 22px;
+ line-height: 26px;
+}
+
+img.logoBur{
+  position: relative;
+  z-index: 3;
+  width:136px;
+  height:40px;
+  margin-left:20px;
+  margin-top:20px;
+}
+
+/* FIXME: XXXXXXXXX */
+.close {
+  position: fixed;
+  z-index: 3;
+  right: 32px;
+  top: 32px;
+  width: 32px;
+  height: 32px;
+  /* opacity: 0.3; */
+}
+.close:hover {
+  opacity: 1;
+}
+.close:before, .close:after {
+  position: absolute;
+  z-index: 2;
+  left: 15px;
+  content: " ";
+  height: 25px;
+  width: 4px;
+  color:#fff;
+  background-color: #fff;
+}
+.close:before {
+  transform: rotate(45deg);
+  color:#ffff;
+}
+.close:after {
+  transform: rotate(-45deg);
+}
+
+
+
+
+
 /* <<<<<<< HEAD */
 
 .platform-all{

@@ -15,6 +15,26 @@
 </head>
 
 <body>
+
+  <!-- Burger Menu -->
+  <div id="burgerMenu"style="display:none">
+<img src="/src/assets/atomist_logo_shapes_banner-product.jpg" class="burImg"
+>
+<img src="src/assets/Atomist-Logo-White-Horiz.png" class="logoBur">
+<a href="#" class="close" onclick="burgerClose()"  ></a>
+    <ul class="menuBur">
+      <li>Developer</li>
+      <li>Pricing</li>
+      <li>Docs</li>
+      <li>Samples</li>
+      <li>Blog</li>
+    </ul>
+
+  
+</div>
+
+
+  <!-- Normal Nav view -->
     <section class="header">
         <img class="background" src="src/assets/background.jpg" alt="none">
         <nav>
@@ -33,17 +53,22 @@
               <li class="nav-link">Docs</li>
             </a>
             <a href="#">
+              <li class="nav-link">Samples</li>
+            </a>
+            <a href="#">
               <li class="nav-link">Blog</li>
             </a>
             <!-- <li href="#"> <li class="login">Login</li></a> -->
           </ul>
           <div class="action">
-          <div class="login"><a href="#" class="log">Login</a></div>
-        </div>
-          <div class="burger">
+              <div class="login"><a href="#" class="log" style="display: none;">Login</a></div>
+            </div>
+          <div class="burger" >
+            <a href="#" onclick="burgerDisplay()">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>
+          </a>
           </div>
         </nav>
     
@@ -557,6 +582,9 @@
     <a href="#">Terms</a>  •  <a href="#">Privacy</a>
   </div>
 </footer>
+
+<script src="/src/js/main.js"></script>
+
 <!--
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
 -->
@@ -575,5 +603,6 @@
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
   </script>
 -->
+
   </body>
 </html>
