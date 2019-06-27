@@ -1,4 +1,4 @@
-// prompt("whats")
+// prompt("whats up")
 
 function burgerDisplay() {
     let x = document.getElementById("burgerMenu");

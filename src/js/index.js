@@ -1,6 +1,6 @@
 // Example of DOM Manipulation with Pure JavaScript
 
-
+// alert("help!")
 
 
 const changeSubtextBackground = () => {
