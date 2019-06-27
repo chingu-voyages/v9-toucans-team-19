@@ -236,7 +236,12 @@ img.chromeTab{
   /* margin-bottom:20px; */
 }
 
-
+@media screen and (max-width:1200px){
+  .nav-bar-list a{
+    padding-right:40px;
+    margin-left:-20px;
+  }
+}
 @media screen and (max-width:800px){
   img.background{
     height:95vh;
@@ -895,12 +900,8 @@ margin-top:3px;
   /* FIXME:   TODO: THE LATEST section */
 
 
-.puzzles{
-  display:inline-block;
-  margin-bottom: 100px;
-  /* width:60%; */
 
-}
+
 .outline-box{
   margin-bottom:40px;
 }
@@ -970,6 +971,8 @@ margin-top:3px;
       height:170px;
       width: 170px;
       margin-right:40px;
+      display:inline-block;
+      margin-bottom: 100px;
       /* margin-top:-80px; */
     }
 
