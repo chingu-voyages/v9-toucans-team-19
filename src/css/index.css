@@ -8,20 +8,20 @@ html, body {
 }
 a{
   text-decoration: none;
-  color:#fff
+  
 }
 
 
 img.background{
   display:block;
   position: absolute;
-  height:75vh;
+  height:740px;
   object-fit: cover;
   width:100%;
   z-index: 0;
-
-
 }
+
+
 nav{
   position: relative;
   z-index:0;
@@ -33,18 +33,21 @@ nav{
   justify-content: space-around;
 }
 
+
 img.logos{
-  position: relative;
+  position: absolute;
+  left:40px;
+  top:25px;
   height: 60px;
   width: 200px;
-  margin-left:-100px;
-
-
 }
+
 .nav-bar-list{
   display: flex;
   padding:20px;
   font-size: 200px;
+  margin-left:65px;
+  margin-top:5px;
   /* padding:-20px; */
 
 }
@@ -70,17 +73,14 @@ a.log {
 
 }
 .login{
-  /* position: absolute; */
+  position: absolute;
   text-decoration: none;
   color:#fff;
-  /* display:block; */
-  overflow: hidden;
-  /* margin-right:10px; */
- /* float:right; */
+  font-size:16px;
+  right:225px;
+  top:45px;
 }
-.action{
-  
-}
+
 .burger div {
   width:25px;
   height: 3px;
@@ -90,13 +90,14 @@ a.log {
 .burger{
   display: none;
 }
+.startButton{
+  position: absolute;
+  top:35px;
+  right:40px;
+}
 .getStarted {
-  float:right;
-  margin-top:-85px;
   position: relative;
   z-index: 1;
-
-  margin-right:35px;
   background-color: #5bc399;
   border-color:none;
   font-size:1rem;
@@ -105,7 +106,6 @@ a.log {
   color:#fff;
   padding: 12px 30px;
   border-radius: 5px;
-  /* padding-left:10px; */
 }
 .getStarted:hover{
   background-color:#4eab86;
@@ -245,16 +245,20 @@ img.chromeTab{
 }
 
 
-/* @media screen and (max-width:1024px){
-  .nav-link{
+@media screen and (max-width:800px){
+  img.background{
+    height:95vh;
   }
-} */
+}
 @media screen and (max-width:1024px){
   #chrome{
-  /* margin-top:-2vh; */
+  margin-top:30vh;
   height:200px;
   /* width:50%; */
 
+}
+img.background{
+  height:70vh;
 }
 
  img.logos{
@@ -262,6 +266,11 @@ img.chromeTab{
     width:140px;
     margin-left:2px;
 }
+.mainTitle{
+  font-size: 40px;
+}
+
+
 }
  /* @media screen and (max-width:768px) {
    img.logo{
@@ -331,13 +340,43 @@ img.logoBur{
   margin-left:20px;
   margin-top:20px;
 }
+.burStartedButton{
+  position: fixed;
+  z-index: 2;
+  color:#fff;
+  left:20px;
+  bottom:50px;
+  background-color: #5bc399;
+  border-color:none;
+  font-size: 16px;
+  border:1px solid transparent;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  color:#fff;
+  padding: 12px 30px;
+  border-radius: 5px;
+  
+}
+.burLogin{
+  position: fixed;
+  z-index:3;
+  color:#fff;
+  bottom:124px;
+  left:20px;
+}
 
-/* FIXME: XXXXXXXXX */
+
+@media screen and (max-width:800px){
+  .burgerMenu{
+    display:none;
+  }
+}
+
+/* FIXME: XXXXXXXXX close xxxxxxx */
 .close {
   position: fixed;
   z-index: 3;
-  right: 32px;
-  top: 32px;
+  right: 20px;
+  top: 40px;
   width: 32px;
   height: 32px;
   /* opacity: 0.3; */
