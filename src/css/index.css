@@ -1125,6 +1125,9 @@ footer ul li a:hover, footer .legal-links a:hover{
   color: #858585;
 }
 
+
+/* FIXME: MODAL */
+
 .modal-circle{
   position: fixed;
   bottom:20px;
@@ -1148,20 +1151,25 @@ footer ul li a:hover, footer .legal-links a:hover{
 .card-modal {
   position:fixed;
   color:green;
-  border:1px solid black;
-  height:700px;
+  /* border:1px solid black; */
+  height:650px;
   width:375px;
   bottom:100px;
   right:20px;
   border-radius: 2%;
+  z-index: 3;
+  overflow:scroll;
+  -webkit-box-shadow: 9px 11px 9px -3px rgba(0,0,0,0.24); 
+  box-shadow: 9px 11px 9px -3px rgba(0,0,0,0.24);
 }
 .top-card-modal{
-  position: absolute;
+  position: fixed;
   background-image:linear-gradient(-90deg, #33946e, #5bc399);
-  height:22vh;
-  width:100%;
+  height:27vh;
+  width:375px;
   border-top-left-radius: 3%;
   border-top-right-radius:3%;
+  /* overflow:scroll; */
 }
 .card-title{
   color:#f2f2f2;
@@ -1178,42 +1186,52 @@ footer ul li a:hover, footer .legal-links a:hover{
 }
 
 .card-modal-img{
-  height:30px;
+  height:35px;
   width:30px;
   position: absolute;
-  top:20px;
-  left:35px;
+  top:22px;
+  left:40px;
 }
 .bottom-modal{
   background-color: #fff;
-  height:82%;
+  height:100%;
   border-radius: 3%;
 }
 .bottom-modal{
   display:flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 100vh;
+  flex-direction: column;
+  overflow:hidden;
+  background-color:#f2f2f2;
 }
 .bottom-card-top{
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
+  margin-top:135px;
   width:90%;
-  height:80px;
-  top:199px;
-  /* left:20px; */
-  position: absolute;
-  border:1px solid black;
+  height:180px;
+  /* top:199px; */
+  position: relative;
+  /* border:1px solid black; */
+  background-color:#fff;
+  border-radius: 2%;
+  -webkit-box-shadow: 3px 8px 8px -5px rgba(0,0,0,0.24); 
+box-shadow: 3px 8px 8px -5px rgba(0,0,0,0.24);
 }
 .bottom-card-middle{
-  /* display: flex;
-  justify-content: center;
-  align-items: center; */
   width:90%;
-  height:80px;
-  top:500px;
-  
-  position: absolute;
+  height:320px;
+  position: relative;
   border:1px solid black;
+  margin-top:20px;
+  background-color:#fff;
+}
+.bottom-card-bottom{
+  width:90%;
+  height:220px;
+  position:relative;
+  margin-top:20px;
+  background-color:#fff;
+  border:1px solid black;
+  overflow: scroll;
 }
