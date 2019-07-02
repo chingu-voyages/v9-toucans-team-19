@@ -48,6 +48,7 @@ img.logos{
   font-size: 200px;
   margin-left:65px;
   margin-top:5px;
+  text-align:center;
   /* padding:-20px; */
 
 }
@@ -1124,7 +1125,7 @@ footer ul li a:hover, footer .legal-links a:hover{
   color: #858585;
 }
 
-.modal-section{
+.modal-circle{
   position: fixed;
   bottom:20px;
   right:20px;
@@ -1148,9 +1149,71 @@ footer ul li a:hover, footer .legal-links a:hover{
   position:fixed;
   color:green;
   border:1px solid black;
-  height:645px;
+  height:700px;
   width:375px;
   bottom:100px;
   right:20px;
   border-radius: 2%;
+}
+.top-card-modal{
+  position: absolute;
+  background-image:linear-gradient(-90deg, #33946e, #5bc399);
+  height:22vh;
+  width:100%;
+  border-top-left-radius: 3%;
+  border-top-right-radius:3%;
+}
+.card-title{
+  color:#f2f2f2;
+  position: absolute;
+  left:40px;
+  top:70px;
+  font-size: 30px;
+  font-weight:Extra-Light;
+  font-family: 'Montserrat', sans-serif;
+}
+.wave{
+  font-size: 30px;
+  margin-left:6px;
+}
+
+.card-modal-img{
+  height:30px;
+  width:30px;
+  position: absolute;
+  top:20px;
+  left:35px;
+}
+.bottom-modal{
+  background-color: #fff;
+  height:82%;
+  border-radius: 3%;
+}
+.bottom-modal{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.bottom-card-top{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width:90%;
+  height:80px;
+  top:199px;
+  /* left:20px; */
+  position: absolute;
+  border:1px solid black;
+}
+.bottom-card-middle{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  width:90%;
+  height:80px;
+  top:500px;
+  
+  position: absolute;
+  border:1px solid black;
 }
