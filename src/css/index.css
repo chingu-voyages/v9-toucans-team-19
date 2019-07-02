@@ -1123,3 +1123,19 @@ footer ul li a:hover, footer .legal-links a:hover{
   text-decoration: none;
   color: #858585;
 }
+
+.modal-section{
+  position: fixed;
+  bottom:20px;
+  right:25px;
+  background-color: #5bc399;
+  height:60px;
+  width:60px;
+  border-radius: 50%;
+  z-index:3;
+}
+.fa-comment{
+  color:white;
+  font-size: 35px;
+  
+}
