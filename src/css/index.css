@@ -1127,7 +1127,7 @@ footer ul li a:hover, footer .legal-links a:hover{
 .modal-section{
   position: fixed;
   bottom:20px;
-  right:25px;
+  right:20px;
   background-color: #5bc399;
   height:60px;
   width:60px;
@@ -1138,4 +1138,19 @@ footer ul li a:hover, footer .legal-links a:hover{
   color:white;
   font-size: 35px;
   
+}
+.fa-times{
+  color:white;
+  font-size:35px;
+}
+
+.card-modal {
+  position:fixed;
+  color:green;
+  border:1px solid black;
+  height:645px;
+  width:375px;
+  bottom:100px;
+  right:20px;
+  border-radius: 2%;
 }
