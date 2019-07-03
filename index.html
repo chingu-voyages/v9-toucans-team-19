@@ -16,8 +16,11 @@
 
  <link href="https://fonts.googleapis.com/css?family=Montserrat|Overpass+Mono&display=swap" rel="stylesheet">
 
+ <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+ 
   <!-- Add additional CSS & JS files as necessary here -->
-  <script src="https://kit.fontawesome.com/27b8f321a9.js"></script>
+ 
   
 </head>
 
@@ -516,17 +519,28 @@
 </footer>
 <!-- MODAL SECTION Button -->
 <div class="modal-button">
-<button class="modal-circle">
-  <div class="w3-animate-zoom">
-  <i class="fas fa-comment " style="display: none;"></i>
-  <i class="fas fa-times" style="display:block;" ></i>
+<button  id="modal-circle"  class="w3-animate-zoom"> 
+  <span><i class="fas fa-comment"></i></span>
+  <span><i class="fas fa-times"></i></span>
+</button>
+
+
+<!-- <button id="modal-circle2" style="display:none;"> 
+  <i class="fas fa-times"></i></button> -->
+
+
+<!-- <i onclick="myFunction(this)" class="fas fa-comment"></i> -->
+  <!-- <div class="w3-animate-zoom">
+  <i class="fas fa-comment" id="comment" style="display: block;"></i>
+   <i class="fas fa-times " id="times" style="display:none;" ></i> -->
+  <i class="fas fa-times " id="times" style="display:none;" ></i>
   </div>
-  </button>
-</div>
+  </button> 
+
 
   <!-- MODAL Section card -->
 
-  <div class="modal-card-section" style="display: block;">
+  <div id="modal-card-section" style="display: none;">
     <div class="card-modal">
       <div class="top-card-modal">
         <img class="card-modal-img" src="src/assets/newAtomist.png" alt="">
@@ -550,11 +564,15 @@
 
 
   </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+  <script src="https://kit.fontawesome.com/27b8f321a9.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.slim.js"
+  integrity="sha256-BTlTdQO9/fascB1drekrDVkaKd9PkwBymMlHOiG+qLI="
+  crossorigin="anonymous"></script>
 
-
-
-  
+  <script src="https://use.fontawesome.com/releases/v5.9.0/js/all.js" data-auto-replace-svg="nest"></script>
 
 <script src="src/js/main.js"></script>
 <!-- <script src="/src/js/index.js"></script> -->
