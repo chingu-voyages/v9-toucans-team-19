@@ -409,7 +409,7 @@ img.logoBur{
 }
 #platform-header{
   font-size: 1.75rem;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   line-height: 1.25;
   font-weight: 650;
 }
@@ -422,6 +422,9 @@ img.logoBur{
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: flex-start;
+}
+.PlatRow1{
+ height:100%;
 }
 .PlatRow1, .PlatRow2, .PlatRow3{
   display: flex;
@@ -467,6 +470,10 @@ img.logoBur{
   line-height: 1.875rem;
   display: flex;
   flex-direction: column;
+  
+}
+.platform-imgbox{
+  margin-left:-20px;
 }
 .platform-title{
   width: auto;
@@ -477,6 +484,9 @@ img.logoBur{
   display: block;
   padding: 0;
   font-size: 20px;
+  text-align: left;
+  margin-top:50px;
+  width:85%;
 }
 .platform-info{
   width: auto;
@@ -485,6 +495,21 @@ img.logoBur{
   line-height: 1.875rem;
   color: #717274;
   font-weight: 400;
+  text-align: left;
+  width:85%;
+}
+
+@media (max-width:1024px){
+  .platform-title{
+    text-align: center;
+    margin-top:-20px;
+    width:100%;
+  }
+  .platform-info{
+    text-align:center;
+    width:100%;
+    
+  }
 }
 .platform-button{
   border-color: transparent;
@@ -497,7 +522,7 @@ img.logoBur{
   cursor: pointer;
   display: inline-block;
   font-weight: 500;
-  margin-top: 20px;
+  margin-top: 30px;
   outline: none;
   padding: 20px 30px;
   text-align: center;
@@ -1150,9 +1175,10 @@ footer ul li a:hover, footer .legal-links a:hover{
   border-radius: 50%;
   z-index:3;
 }
-.fa-comment{
+.fa-comment-alt{
   color:white;
   font-size: 35px;
+  margin-bottom: 12px;
   
 }
 .fa-times{
