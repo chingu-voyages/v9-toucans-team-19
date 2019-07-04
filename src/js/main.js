@@ -37,6 +37,53 @@ $(document).ready(function(){
 })
 
 
+// fade in of cards
+$('#modal-circle').on('click',function(){
+  if($('.bottom-card-top').css('opacity')==0){
+    $('.bottom-card-top').css('opacity',1);
+  }
+  else{
+    $('.bottom-card-top').css('opacity',0);
+  }
+});
+
+// middle-card
+$('#modal-circle').on('click',function(){
+  if($('.bottom-card-middle').css('opacity')==0){
+    $('.bottom-card-middle').css('opacity',1);
+  }
+  else{
+    $('.bottom-card-middle').css('opacity',0);
+  }
+});
+
+
+// bottom card
+$('#modal-circle').on('click',function(){
+  if($('.bottom-card-bottom').css('opacity')==0){
+    $('.bottom-card-bottom').css('opacity',1);
+  }
+  else{
+    $('.bottom-card-bottom').css('opacity',0);
+  }
+});
+
+
+
+// $(document).ready(function(){
+//   $("#modal-circle").click(function(){
+//     $(".card-modal").slideUp();
+//   });
+// });
+
+// $('.card-title').show(0).delay(5000).hide(0);
+
+// $(document).ready(function(){
+//   $("#modal-circle").click(function(){
+//     $(".card-modal-img").slideUp("slow");
+//   });
+// });
+
 
 
 
