@@ -903,7 +903,9 @@ margin-top:3px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   padding-inline-start: 40px;
-  line-height: 1.5rem;
+  line-height: 2rem;
+  font-weight: 100;
+  font-size:14px;
 }
 .GreenButtons{
   padding: 10px 20px;
@@ -1084,6 +1086,7 @@ margin-top:3px;
   color: white;
   padding: 60px 20px;
   text-align: center;
+  font-size: 16px;
 }
 .ReadyButton{
   border-color: transparent;
@@ -1123,12 +1126,36 @@ footer img{
 .footer-nav_column-center{
   margin:0 30px;
 }
+.head-foot{
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.head-p{
+  font-size:16px;
+  margin-bottom:30px;
+}
 .social-links{
   display:inline-block;
+  font-size: 26px;
+ margin-right:40px;
 }
 .social-links a{
   text-decoration: none;
   color: #227F7E;
+  
+}
+.readyHeader{
+ font-size: 100px;
+}
+.fa-twitter{
+  margin-right:40px;
+  margin-left:20px;
+}
+.fa-github{
+  margin-right: 40px;
+}
+.fa-slack{
+  margin-right:40px;
 }
 .social-links a:hover{
   text-decoration: none;
@@ -1137,6 +1164,15 @@ footer img{
 .legal-links{
   padding-bottom: 60px;
 }
+.created1{
+  margin-top:40px;
+  font-size: 14px;
+  
+}
+.created2{
+  margin-top:-10px;
+  font-size: 14px;
+}
 footer ul{
   padding: 0;
   list-style: none;
@@ -1144,11 +1180,27 @@ footer ul{
 footer ul li a, footer .legal-links a{
   text-decoration: none;
   color: #858585;
+  
 }
 footer ul li a:hover, footer .legal-links a:hover{
   text-decoration: none;
   color: #858585;
 }
+.footer-nav_column-left{
+  line-height: 3rem;
+  text-align:right;
+}
+.footer-nav_column-center{
+  line-height: 3rem;
+  margin-left:70px;
+  margin-right: 70px;
+  margin-bottom: 25px;
+}
+.footer-nav_column-right{
+  line-height: 3rem;
+  text-align: left;
+}
+
 
 
 /* FIXME: MODAL */
