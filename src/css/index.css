@@ -115,9 +115,16 @@ top:25px;
   color:#fff;
   padding: 12px 30px;
   border-radius: 5px;
+  outline:none;
+
+}
+.getStarted:focus{
+  outline:none !important
 }
 .getStarted:hover{
   background-color:#4eab86;
+  outline:none;
+  border-color:none;
 }
 #chrome{
   display: block;
@@ -172,6 +179,7 @@ img.chromeTab{
   line-height: 1.75rem;
   color:#fff;
   font-family: "Tofino", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Helvetica", sans-serif;
+  margin-bottom:30px;
 }
 
 .move-beyond{
@@ -198,6 +206,10 @@ img.chromeTab{
   border-radius: 5px;
   margin-top:20px;
   margin-bottom:100px;
+  font-weight: 300;
+}
+.get-started:focus{
+  outline:none !important
 }
 
 .get-started:hover{
@@ -1352,8 +1364,8 @@ footer ul li a:hover, footer .legal-links a:hover{
   background-color:#fff;
   border-radius: 2%;
   -webkit-box-shadow: 0px 2px 12px -2px rgba(0,0,0,0.23); 
-  box-shadow: 0px 2px 12px -2px rgba(0,0,0,0.23)
-  border-top:1px solid #4eab86; 
+  box-shadow: 0px 2px 12px -2px rgba(0,0,0,0.23);
+  border-top: 1px solid #4eab86; 
  
 }
 .bottom-card-bottom{
