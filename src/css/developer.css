@@ -2,6 +2,7 @@ html, body {
     height: 100%;
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
     -webkit-overflow-scrolling: touch;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
@@ -403,6 +404,10 @@ html, body {
       color:#000;
       margin-top:350px;
       
+      
+  }
+  .info-container{
+    width:50%;
   }
 
   .support-info{
@@ -424,19 +429,22 @@ html, body {
   }
   .symbols{
       color:#4eab86;
+      
   }
+
   .code-block{
-     display:flex;
-     justify-content: center;
-     align-content: center;
+  
+     text-align: left;
+    
   }
   pre{
-      color:#bababa;
+      color:#858585;
       background-color:#121822;
       padding:15px;
-      font-weight: 100;
+      font-weight: thin;
       text-align: left;
-      width:50vw;
+      white-space: pre-line;
+      /* width:100%; */
     
   }
   .mask{
@@ -445,3 +453,68 @@ html, body {
       border-radius: 3px;
       padding:2px 6px;
   }
+/* FIXME: create workspace  */
+
+
+
+
+  .workspace-container{
+   /* text-align: left;
+   display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    width:50%;
+  }
+
+  .atomist-workspace{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    text-align: left;
+   background-color: #f7f7f7;
+   
+
+    
+  }
+  .workspace-container{
+    text-align: left;
+  }
+  .workspace-info{
+   text-align: left;
+    
+  }
+  .workspace-title{
+    text-align: left;
+    font-size: 30px;
+    margin-top:50px;
+    font-weight: 600;
+  }
+
+.workspace-support-info1{
+    color:#858585;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom:50px;
+}
+.workspace-pre{
+ padding-left:20px;
+  font-weight: 100;
+  line-height: 26px;
+  font-size: 14px;
+
+}
+
+.secondary-title{
+  font-size:16px;
+  font-weight: 700;
+}
+.secondary-title2{
+  font-size:16px;
+  font-weight: 700;
+  margin-top:40px;
+}
+.code-blocked{
+  margin-bottom:200px;
+}
