@@ -48,9 +48,9 @@
             <img class="background" src="src/assets/at2.jpg" alt="none">
             <nav>
                 <a href="index.html" class="logo">
-        
+
                     <img class="logos" src="src/assets/Atomist-Logo-White-Horiz.png" alt="Atomist">
-                    
+
                 </a>
                 <!-- <se class="list"> -->
                 <ul class="nav-bar-list">
@@ -90,50 +90,55 @@
 
         </section>
         <section class="title">
-                <h1 class="modernize-Delivery-title">Getting Started 
-                        <h2 class="modernize-Delivery-p">Atomist is a programmable platform for event-driven automation of software delivery, <br>with native chatops support. Developing on Atomist means building on a Software<br>Delivery Machine, so let’s get started creating one! </h2>
+            <h1 class="modernize-Delivery-title">Getting Started</h1>
+                <h2 class="modernize-Delivery-p">Atomist is a programmable platform for event-driven automation of
+                    software delivery, <br>with native chatops support. Developing on Atomist means building on a
+                    Software<br>Delivery Machine, so let’s get started creating one! </h2>
 
         </section>
 
-<section>
+        <section>
 
-<div class="main-info">
-<div class="info-container">
-<h3 class="install">Install the Atomist Command-Line Interface</h3>
-<p class="support-info">You’ll need Git and Node.js (this comes with npm) installed</p>
+            <div class="main-info">
+                <div class="info-container">
+                    <h3 class="install">Install the Atomist Command-Line Interface</h3>
+                    <p class="support-info">You’ll need Git and Node.js (this comes with npm) installed</p>
 
-<div class="code-block">
- <pre> <span class="symbols">$</span>   npm install -g @atomist/cli</pre>
-</div>
+                    <div class="code-block">
+                        <pre> <span class="symbols">$</span>   npm install -g @atomist/cli</pre>
+                    </div>
 
-<p class="support-info">Or on a mac, if you prefer homebrew: </p>
+                    <p class="support-info">Or on a mac, if you prefer homebrew: </p>
 
-  <div class="code-block">
-      <pre> <span class="symbols">$</span>  brew install atomist-cli</pre>
-  </div>
-  <p class="support-info2">Now you have the <span class="mask">atomist</span> command installed which is used for creating and running an SDM.</p>
+                    <div class="code-block">
+                        <pre> <span class="symbols">$</span>  brew install atomist-cli</pre>
+                    </div>
+                    <p class="support-info2">Now you have the <span class="mask">atomist</span> command installed which
+                        is used for creating and running an SDM.</p>
 
-</div>
-
-
-<div class="info-container">
-  <h3 class="install"></h3>
-</div>
-
-</div>
+                </div>
 
 
-</section>
-     
-<div class="atomist-workspace">
- <div class="workspace-container">
-   <div class="workspace-info">
-       <h1 class="workspace-title">Create an Atomist Workspace</h1>
-        <p class="workspace-support-info1">A Workspace is where you configure which git repositories or organizations SDMs work on. It’s also where you connect a workspace to chat, and invite and manage other users of the workspace. You’ll need a workspace to connect your own SDM to.</p>
-      <h3 class="secondary-title">Configure your CLI:</h3>
-    </div>
-      <div class="code-blocks">
-      <pre class="workspace-pre">
+                <div class="info-container">
+                    <h3 class="install"></h3>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <div class="atomist-workspace">
+            <div class="workspace-container">
+                <div class="workspace-info">
+                    <h1 class="workspace-title">Create an Atomist Workspace</h1>
+                    <p class="workspace-support-info1">A Workspace is where you configure which git repositories or
+                        organizations SDMs work on. It’s also where you connect a workspace to chat, and invite and
+                        manage other users of the workspace. You’ll need a workspace to connect your own SDM to.</p>
+                    <h3 class="secondary-title">Configure your CLI:</h3>
+                </div>
+                <div class="code-blocks">
+                    <pre class="workspace-pre">
           <span class="symbols"> $ </span>  atomist config
             ? Enter your api key from https://app.atomist.com/apikeys
                   or hit ENTER  to select an authentication provider 
@@ -142,12 +147,12 @@
             ? Authentication Provider GitHub
             Logged in as roborate using GitHub
             No workspaces available. Run atomist workspace create</pre>
-        
-   </div>
-    <h3 class="secondary-title2">Create a Workspace:</h3>
 
-    <div class="code-blocked">
-        <pre class="workspace-pre">
+                </div>
+                <h3 class="secondary-title2">Create a Workspace:</h3>
+
+                <div class="code-blocked">
+                    <pre class="workspace-pre">
                <span class="symbols">$</span>  atomist workspace create
                 Logged in as roborate using GitHub
                 Create a new workspace:
@@ -158,11 +163,53 @@
                 Please select organizations you want to enable:
                 ? Organizations roborate-org
                 Successfully configured SCM provider GitHub.com
-        </pre>
+                </pre>
+                </div>
+            </div>
+        </div>
+
+
+<div class="delivery-outline">
+    <div class="delivery-container">
+        <div class="delivery-info">
+            <h2 class="delivery-title">Create a Software Delivery Machine </h2>
+        <div class="code3">
+            <pre class="workspace-pre"><span class="symbols">$</span> atomist create sdm
+                    ? Type of SDM to create
+                      blank
+                    ❯ uhura
+                    …
+                      Successfully created new project uhura at file:~/atomist/projects/target-owner/uhura
+                  <span class="symbols">$</span>  <span class="sy">cd</span>  ~/atomist/projects/target-owner/uhura
+                   <span class="symbols">$</span>  atomist start</pre>
+        </div>
+
+    <div class="lower-info">
+        <div class="support-info3">
+                When it prompts you for
+                <span class="mask">(mapped parameter) target-owner</span> , enter your GitHub organization (or your GitHub username). A new directory will be created for the SDM in
+            <span class="mask">$ATOMIST_ROOT</span>. This will not create a repository on GitHub.
+           
+
+            <div class="info-spacer">
+             Running 
+        <span class="mask">atomist start</span>
+          will install and start the Uhura SDM. Uhura provides the same delivery goals that are provided to every workspace by the Atomist service. By installing your own instance of Uhura, you can extend and customize its behavior.
+            </div>
+                
+            <div class="info-spacer2">     
+                When the Uhura SDM starts up, it will connect to your Atomist workspace. Test it out by creating a new project and see the delivery goals execute.
+            </div> 
+
+            <button class="tutorials">
+             <span class="next">Next:</span>   See Tutorials to start developing your SDM
+            </button>
+        
+
+      </div>
     </div>
  </div>
 </div>
-
 
 
 

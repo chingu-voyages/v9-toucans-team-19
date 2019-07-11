@@ -428,7 +428,7 @@ html, body {
       
   }
   .symbols{
-      color:#4eab86;
+      color:#008480;
       
   }
 
@@ -448,10 +448,11 @@ html, body {
     
   }
   .mask{
-      color:#4eab86;
+      color:#008480;;
       border: 1px solid #bababa;
       border-radius: 3px;
       padding:2px 6px;
+      font-weight: 100;
   }
 /* FIXME: create workspace  */
 
@@ -459,11 +460,7 @@ html, body {
 
 
   .workspace-container{
-   /* text-align: left;
-   display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column; */
+
     width:50%;
   }
 
@@ -517,4 +514,50 @@ html, body {
 }
 .code-blocked{
   margin-bottom:200px;
+}
+
+
+/* FIXME: lower section */
+.delivery-container{
+ width:50%;
+}
+
+.delivery-outline{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  width:100%;
+}
+.sy{
+  color:#4eab86;
+}
+.support-info3{
+  color:#858585;
+font-size: 16px;
+text-align: left;
+}
+
+.info-spacer{
+  margin-top:40px;
+}
+.info-spacer2{
+  margin-top:40px;
+  margin-bottom:40px;
+}
+.lower-info{
+  margin-top:40px;
+}
+
+.tutorials{
+  padding:10px;
+  color:#4eab86;
+  background-color: transparent;
+  margin-bottom:30px;
+  outline:none;
+}
+.tutorials:focus{
+  outline:none !important;
+}
+.next{
+  color:#858585;
 }
