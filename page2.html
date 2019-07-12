@@ -99,74 +99,74 @@
 
         <section>
 
-            <div class="main-info">
-                <div class="info-container">
-                    <h3 class="install">Install the Atomist Command-Line Interface</h3>
-                    <p class="support-info">You’ll need Git and Node.js (this comes with npm) installed</p>
+        <div class="main-info">
+            <div class="info-container">
+                <h3 class="install">Install the Atomist Command-Line Interface</h3>
+                <p class="support-info">You’ll need Git and Node.js (this comes with npm) installed</p>
 
-                    <div class="code-block">
-                        <pre> <span class="symbols">$</span>   npm install -g @atomist/cli</pre>
-                    </div>
-
-                    <p class="support-info">Or on a mac, if you prefer homebrew: </p>
-
-                    <div class="code-block">
-                        <pre> <span class="symbols">$</span>  brew install atomist-cli</pre>
-                    </div>
-                    <p class="support-info2">Now you have the <span class="mask">atomist</span> command installed which
-                        is used for creating and running an SDM.</p>
-
+                <div class="code-block">
+                    <pre> <span class="symbols">$</span>   npm install -g @atomist/cli</pre>
                 </div>
 
+                <p class="support-info">Or on a mac, if you prefer homebrew: </p>
 
-                <div class="info-container">
-                    <h3 class="install"></h3>
+                <div class="code-block">
+                    <pre> <span class="symbols">$</span>  brew install atomist-cli</pre>
                 </div>
+                <p class="support-info2">Now you have the <span class="mask">atomist</span> command installed which
+                    is used for creating and running an SDM.</p>
 
             </div>
 
 
-        </section>
+            <div class="info-container">
+                <h3 class="install"></h3>
+            </div>
 
-        <div class="atomist-workspace">
-            <div class="workspace-container">
-                <div class="workspace-info">
-                    <h1 class="workspace-title">Create an Atomist Workspace</h1>
-                    <p class="workspace-support-info1">A Workspace is where you configure which git repositories or
-                        organizations SDMs work on. It’s also where you connect a workspace to chat, and invite and
-                        manage other users of the workspace. You’ll need a workspace to connect your own SDM to.</p>
-                    <h3 class="secondary-title">Configure your CLI:</h3>
-                </div>
-                <div class="code-blocks">
-                    <pre class="workspace-pre">
-          <span class="symbols"> $ </span>  atomist config
-            ? Enter your api key from https://app.atomist.com/apikeys
-                  or hit ENTER  to select an authentication provider 
-                  to login with Atomist:
-            Select one of the following authentication providers available to login with Atomist:
-            ? Authentication Provider GitHub
+        </div>
+
+
+    </section>
+
+    <div class="atomist-workspace">
+        <div class="workspace-container">
+            <div class="workspace-info">
+                <h1 class="workspace-title">Create an Atomist Workspace</h1>
+                <p class="workspace-support-info1">A Workspace is where you configure which git repositories or
+                    organizations SDMs work on. It’s also where you connect a workspace to chat, and invite and
+                    manage other users of the workspace. You’ll need a workspace to connect your own SDM to.</p>
+                <h3 class="secondary-title">Configure your CLI:</h3>
+            </div>
+            <div class="code-blocks">
+                <pre class="workspace-pre">
+        <span class="symbols"> $ </span>  atomist config
+        ? Enter your api key from https://app.atomist.com/apikeys
+                or hit ENTER  to select an authentication provider 
+                to login with Atomist:
+        Select one of the following authentication providers available to login with Atomist:
+        ? Authentication Provider GitHub
+        Logged in as roborate using GitHub
+        No workspaces available. Run atomist workspace create</pre>
+
+            </div>
+            <h3 class="secondary-title2">Create a Workspace:</h3>
+
+            <div class="code-blocked">
+                <pre class="workspace-pre">
+            <span class="symbols">$</span>  atomist workspace create
             Logged in as roborate using GitHub
-            No workspaces available. Run atomist workspace create</pre>
-
-                </div>
-                <h3 class="secondary-title2">Create a Workspace:</h3>
-
-                <div class="code-blocked">
-                    <pre class="workspace-pre">
-               <span class="symbols">$</span>  atomist workspace create
-                Logged in as roborate using GitHub
-                Create a new workspace:
-                ? Workspace Name roborate
-                Successfully created new workspace roborate with id ACJJMMMKO3
-                Select an SCM provider type to configure:
-                ? SCM provider GitHub.com
-                Please select organizations you want to enable:
-                ? Organizations roborate-org
-                Successfully configured SCM provider GitHub.com
-                </pre>
-                </div>
+            Create a new workspace:
+            ? Workspace Name roborate
+            Successfully created new workspace roborate with id ACJJMMMKO3
+            Select an SCM provider type to configure:
+            ? SCM provider GitHub.com
+            Please select organizations you want to enable:
+            ? Organizations roborate-org
+            Successfully configured SCM provider GitHub.com
+            </pre>
             </div>
         </div>
+    </div>
 
 
 <div class="delivery-outline">

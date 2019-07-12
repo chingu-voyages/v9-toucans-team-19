@@ -16,8 +16,8 @@ html, body {
   img.background{
     display:block;
     position: absolute;
-    height:60vh;
-    /* object-fit: cover; */
+    height:59vh;
+    object-fit:fill;
     width:100%;
     z-index: 0;
   }
@@ -120,25 +120,7 @@ html, body {
   .getStarted:hover{
     background-color:#4eab86;
   }
-  #chrome{
-    display: block;
-    max-height:400px;
-    min-height:410px;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    margin-top:7rem;
-  }
-  
-  img.chromeTab{
-    display: block;
-    height:409px;
-    width:770px;
-    background:no-repeat 50% 0;
-    position: relative;
-    min-height: 400px;
-    z-index: 1;
-  }
+ 
   
   .title{
     display: flex;
@@ -149,7 +131,7 @@ html, body {
   }
   
   .modernize-Delivery-title{
-    top:5vh;
+    top:4vh;
     position: relative;
     z-index:0;
     letter-spacing: 0.06rem;
@@ -165,12 +147,12 @@ html, body {
   .modernize-Delivery-p{
     z-index: 0;
     position: relative;
-    top:65px;
-    font-size: 1.3124rem;
+    top:55px;
+    font-size: 25px;
     text-align: center;
     z-index: 1;
     font-weight: 300;
-    line-height: 1.75rem;
+    line-height:2.5rem;
     color:#fff;
     font-family: "Tofino", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Helvetica", sans-serif;
   
@@ -394,6 +376,9 @@ html, body {
   .close:after {
     transform: rotate(-45deg);
   }
+
+
+  /* TODO: CODE SECTION START */
   
   .main-info{
       display:flex;
@@ -402,10 +387,15 @@ html, body {
       position: relative;
       flex-direction: column;
       color:#000;
-      margin-top:350px;
-      
+      margin-top:250px;
       
   }
+  .install{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom:-20px;
+  }
+
   .info-container{
     width:50%;
   }
@@ -414,19 +404,17 @@ html, body {
       color:#858585;
       font-size: 16px;
       text-align: left;
-      
+      margin-top:40px;
+      /* margin-bottom: -1px; */
   }
   .support-info2{
       color:#858585;
       font-size: 16px;
       text-align: left;
-      margin-bottom:200px;
+      margin-top:40px;
+      margin-bottom:130px;
   }
-  .install{
-      font-size: 20px;
-      text-align: left;
-      
-  }
+
   .symbols{
       color:#008480;
       
@@ -444,6 +432,7 @@ html, body {
       font-weight: thin;
       text-align: left;
       white-space: pre-line;
+      /* margin-top:-10px; */
       /* width:100%; */
     
   }
@@ -480,20 +469,21 @@ html, body {
   }
   .workspace-info{
    text-align: left;
+
     
   }
   .workspace-title{
     text-align: left;
     font-size: 30px;
-    margin-top:50px;
-    font-weight: 600;
+    margin-top:70px;
+    font-weight: 700;
   }
 
 .workspace-support-info1{
     color:#858585;
     font-size: 16px;
     text-align: left;
-    margin-bottom:50px;
+    margin-bottom:30px;
 }
 .workspace-pre{
  padding-left:20px;
@@ -513,7 +503,7 @@ html, body {
   margin-top:40px;
 }
 .code-blocked{
-  margin-bottom:200px;
+  margin-bottom:170px;
 }
 
 
