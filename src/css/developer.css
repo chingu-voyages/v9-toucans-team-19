@@ -14,12 +14,12 @@ html, body {
   
   
   img.background{
-    display:block;
     position: absolute;
-    height:59vh;
-    object-fit:fill;
+    height:600px;
+    object-fit:cover;
     width:100%;
     z-index: 0;
+    /* margin-top:-70px; */
   }
   
   
@@ -157,6 +157,12 @@ html, body {
     font-family: "Tofino", -apple-system, "BlinkMacSystemFont", "Segoe UI", "Helvetica", sans-serif;
   
   }
+  @media screen and (max-width:1200px){
+    .modernize-Delivery-p{
+      font-size:18px;
+      width:100%;
+    }
+  }
   
   .move-beyond{
     display: flex;
@@ -228,9 +234,9 @@ html, body {
     }
   }
   @media screen and (max-width:800px){
-    img.background{
-      height:95vh;
-    }
+    /* img.background{
+      height:;
+    } */
   }
   @media screen and (max-width:1024px){
     #chrome{
@@ -239,19 +245,14 @@ html, body {
     /* width:50%; */
   
   }
-  img.background{
-    height:70vh;
-  }
+
   
    img.logos{
       height:40px;
       width:140px;
       margin-left:2px;
   }
-  .modernize-Delivery-title{
-    font-size: 40px;
-  }
-  
+
   
   }
   
@@ -399,6 +400,12 @@ html, body {
   .info-container{
     width:50%;
   }
+ @media screen and (max-width:1600px){
+  .info-container{
+    width:75%;
+  }
+
+ }
 
   .support-info{
       color:#858585;
@@ -451,6 +458,11 @@ html, body {
   .workspace-container{
 
     width:50%;
+  }
+  @media screen and (max-width:1600px){
+    .workspace-container{
+      width:75%;
+    }
   }
 
   .atomist-workspace{
@@ -511,7 +523,11 @@ html, body {
 .delivery-container{
  width:50%;
 }
-
+@media screen and (max-width:1600px){
+  .delivery-container{
+    width:75%;
+  }
+}
 .delivery-outline{
   display: flex;
   justify-content: center;
