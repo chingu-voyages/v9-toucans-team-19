@@ -368,7 +368,11 @@ img.logoBur{
   bottom:124px;
   left:20px;
 }
-
+.menu-developer:hover{
+  outline:none;
+  text-decoration: none;
+  color:inherit;
+}
 
 @media screen and (max-width:800px){
   .burgerMenu{
